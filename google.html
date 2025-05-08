@@ -18,20 +18,22 @@
     <title>Google</title>
   </head>
   <body>
-    <div class="image"><a href="https://www.ornek.com">Images</a>
-    </div>
+    <div class="image"><a href="https://www.ornek.com">Images</a></div>
     <div class="logo">
       <img src="./images/Google_2015_logo.svg.webp" alt="Google Logo" />
     </div>
 
-    <form class="search-form">
-      <input type="text" class="search-input" />
+    <form
+      class="search-form"
+      action="https://www.google.com/search"
+      method="GET"
+    >
+      <input type="text" class="search-input" name="q" />
 
       <div class="buttons">
         <button type="submit">Google Search</button>
         <button type="button">I'm Feeling Lucky</button>
       </div>
     </form>
-
   </body>
 </html>
